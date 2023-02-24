@@ -2,6 +2,7 @@ package br.com.san.edu;
 
 public class StockCauculator {
     public static void main(String[] args) {
+
         double soma = 0;
 
         for(double index = 0; index < 1; index++) {
