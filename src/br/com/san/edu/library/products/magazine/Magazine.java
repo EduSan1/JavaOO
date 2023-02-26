@@ -1,4 +1,8 @@
-package br.com.san.edu;
+package br.com.san.edu.library.products.magazine;
+
+import br.com.san.edu.library.products.Product;
+import br.com.san.edu.library.products.Promotional;
+import br.com.san.edu.library.products.magazine.Publisher;
 
 public class Magazine implements Product, Promotional {
     private String name;

@@ -1,4 +1,7 @@
-package br.com.san.edu;
+package br.com.san.edu.library.test;
+
+import br.com.san.edu.library.products.book.Author;
+import br.com.san.edu.library.products.book.PrintedBook;
 
 public class RegisterBooks {
     public static void main(String[] args) {

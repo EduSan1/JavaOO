@@ -1,4 +1,6 @@
-package br.com.san.edu;
+package br.com.san.edu.library.products.book;
+
+import br.com.san.edu.library.products.Product;
 
 public abstract class Book implements Product {
     private String name;
@@ -60,7 +62,7 @@ public abstract class Book implements Product {
         this.author = author;
     }
 
-    void getDetails() {
+    public void getDetails() {
         System.out.println("Mostrando detalhes do livro!");
         System.out.println("Nome: " + this.getName());
         System.out.println("Descrição: " + this.getDescription());

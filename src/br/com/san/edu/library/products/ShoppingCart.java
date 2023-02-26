@@ -1,4 +1,6 @@
-package br.com.san.edu;
+package br.com.san.edu.library.products;
+
+import br.com.san.edu.library.products.Product;
 
 public class ShoppingCart {
 

@@ -1,4 +1,4 @@
-package br.com.san.edu;
+package br.com.san.edu.library.test;
 
 public class StockCauculator {
     public static void main(String[] args) {

@@ -1,6 +1,8 @@
-package br.com.san.edu;
+package br.com.san.edu.library.products.book;
 
-public class Ebook extends Book implements Promotional{
+import br.com.san.edu.library.products.Promotional;
+
+public class Ebook extends Book implements Promotional {
 
     private String waterMark;
     public Ebook(String name, double value, Author author) {

@@ -1,4 +1,9 @@
-package br.com.san.edu;
+package br.com.san.edu.library.test;
+
+import br.com.san.edu.library.products.book.Author;
+import br.com.san.edu.library.products.book.Ebook;
+import br.com.san.edu.library.products.book.PrintedBook;
+import br.com.san.edu.library.products.ShoppingCart;
 
 public class SalesRecord {
 

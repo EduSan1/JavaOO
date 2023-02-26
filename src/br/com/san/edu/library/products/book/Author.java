@@ -1,4 +1,4 @@
-package br.com.san.edu;
+package br.com.san.edu.library.products.book;
 
 public class Author {
     private String name;
