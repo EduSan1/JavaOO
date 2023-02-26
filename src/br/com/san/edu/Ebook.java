@@ -1,6 +1,6 @@
 package br.com.san.edu;
 
-public class Ebook extends Book{
+public class Ebook extends Book implements Promotional{
 
     private String waterMark;
     public Ebook(String name, double value, Author author) {
