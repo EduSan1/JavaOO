@@ -73,8 +73,12 @@ public class Book {
         System.out.println("--------------------------------");
     }
 
-    void applyDiscount(double percentage) {
+    boolean applyDiscount(double percentage) {
+        if (percentage <= 0 || percentage > 0.30)
+            return false;
+
         setValue(getValue() - getValue() * percentage);
+        return true;
     }
     boolean haveAuthor() {
         boolean heHas = this.getAuthor() != null;
