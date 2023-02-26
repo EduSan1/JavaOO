@@ -1,4 +1,8 @@
-package br.com.san.edu;
+package br.com.san.edu.library.products.book;
+
+import br.com.san.edu.library.products.Promotional;
+import br.com.san.edu.library.products.book.Author;
+import br.com.san.edu.library.products.book.Book;
 
 public class PrintedBook extends Book implements Promotional {
     public PrintedBook(String name, double value, Author author) {

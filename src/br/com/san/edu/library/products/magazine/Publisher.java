@@ -1,4 +1,4 @@
-package br.com.san.edu;
+package br.com.san.edu.library.products.magazine;
 
 public class Publisher {
     private String fantasyName;

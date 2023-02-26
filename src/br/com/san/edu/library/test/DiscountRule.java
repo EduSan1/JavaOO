@@ -1,4 +1,6 @@
-package br.com.san.edu;
+package br.com.san.edu.library.test;
+
+import br.com.san.edu.library.products.book.*;
 
 public class DiscountRule {
 

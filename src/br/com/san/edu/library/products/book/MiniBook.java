@@ -1,4 +1,7 @@
-package br.com.san.edu;
+package br.com.san.edu.library.products.book;
+
+import br.com.san.edu.library.products.book.Author;
+import br.com.san.edu.library.products.book.Book;
 
 public class MiniBook extends Book {
     public MiniBook(String name, double value, Author author) {
