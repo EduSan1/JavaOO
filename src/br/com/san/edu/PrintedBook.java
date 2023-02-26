@@ -12,4 +12,12 @@ public class PrintedBook extends Book{
     public double getPrintRate() {
         return super.getValue() * 0.05;
     }
+
+    @Override
+    public boolean applyDiscount(double percentage) {
+        if (percentage <= 0 || percentage > 0.3)
+            return false;
+        setValue(getValue() - getValue() * percentage);
+        return true;
+    }
 }

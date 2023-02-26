@@ -6,14 +6,14 @@ public class RegisterBooks {
         author.setEmail("rodrigo.turini@caelum.com.br");
         author.setCpf("123.456.789-10");
 
-        Book book = new Book("Java", 59.90, author, "978-85-66250-46-6");
+        PrintedBook book = new PrintedBook("Java", 59.90, author, "978-85-66250-46-6");
         book.setDescription("Desbravando Java e Orientação a Objeto");
 
         Author authorTwo = new Author("Eduardo Felipe Zambom Santana");
         authorTwo.setEmail("eduardo.felipe@caelum.com.br");
         authorTwo.setCpf("123.456.789-10");
 
-        Book bookTwo = new Book("Back-end Java", 79.90, authorTwo);
+        PrintedBook bookTwo = new PrintedBook("Back-end Java", 79.90, authorTwo);
         bookTwo.setDescription("Microsserviços, Spring Boot e Kubernetes");
 
         book.getDetails();
