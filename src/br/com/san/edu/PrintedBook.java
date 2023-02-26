@@ -1,6 +1,6 @@
 package br.com.san.edu;
 
-public class PrintedBook extends Book{
+public class PrintedBook extends Book implements Promotional {
     public PrintedBook(String name, double value, Author author) {
         super(name, value, author);
     }

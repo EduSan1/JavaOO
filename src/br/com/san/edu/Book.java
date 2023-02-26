@@ -1,6 +1,6 @@
 package br.com.san.edu;
 
-public abstract class Book {
+public abstract class Book implements Product {
     private String name;
     private String description;
     private double value;

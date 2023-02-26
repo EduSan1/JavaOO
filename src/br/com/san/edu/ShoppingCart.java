@@ -4,10 +4,9 @@ public class ShoppingCart {
 
     private double total;
 
-    public void add(Book book) {
-        System.out.println("Livro \""+ book.getName() +"\" Adicionado");
-        book.applyDiscount(0.05);
-        setTotal(getTotal() + book.getValue());
+    public void add(Product product) {
+        System.out.println("Produto \""+ product.getName() +"\" Adicionado");
+        setTotal(getTotal() + product.getValue());
     }
 
     public double getTotal() {
