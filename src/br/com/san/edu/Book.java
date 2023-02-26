@@ -1,6 +1,6 @@
 package br.com.san.edu;
 
-public class Book {
+public abstract class Book {
     private String name;
     private String description;
     private double value;
@@ -73,13 +73,7 @@ public class Book {
         System.out.println("--------------------------------");
     }
 
-    boolean applyDiscount(double percentage) {
-        if (percentage <= 0 || percentage > 0.30)
-            return false;
-
-        setValue(getValue() - getValue() * percentage);
-        return true;
-    }
+    public abstract boolean  applyDiscount(double percentage);
     boolean haveAuthor() {
         boolean heHas = this.getAuthor() != null;
         return heHas;
